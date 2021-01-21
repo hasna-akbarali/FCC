@@ -1,1 +1,1 @@
-# FCC
+FCC stands for freeCodeCamp and I recently came across this website that teaches everything from scratch. There are a total of 6 levels of tasks in order to thoroughly learn Full Stack Development. I will be uploading all the projects that I have to complete. Please let me know if I have to make any corrections. 
