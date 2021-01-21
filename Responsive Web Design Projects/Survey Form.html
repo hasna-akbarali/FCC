@@ -1,0 +1,91 @@
+<html>
+<head>
+    <style>
+        #title,#description {
+            color: white;
+            text-align: center;
+            font-family:monospace;
+        }
+        input[type="radio"] {
+			-webkit-appearance: none;
+			width: 20px;
+			height: 20px;
+			border: none;
+			filter: grayscale(100%);
+        }
+        body{
+            background-color: black;
+            font-family: monospace;
+            text-transform: uppercase;
+        }
+        div {
+            margin:auto;
+            width:370;
+            border-radius: 5px;
+            background-color: white;
+            padding: 20px;
+        }
+        .description {
+	       text-align: center;
+	       padding: 1.5em;
+	       border-bottom: solid 1px #aaa;
+        }
+        #one {
+				background: url('https://res.cloudinary.com/turdlife/image/upload/v1492864443/happy_ampvnc.svg') center;
+				background-size: cover;
+			}
+			
+        #two {
+				background: url('https://res.cloudinary.com/turdlife/image/upload/v1492864443/neutral_t3q8hz.svg') center;
+				background-size: cover;
+			}
+		#three {
+				background: url('https://res.cloudinary.com/turdlife/image/upload/v1492864443/sad_bj1tuj.svg') center;
+				background-size: cover;
+			}
+}
+    </style>
+</head>
+<body>
+    <h1 id="title" > Customer Feedback Form </h1>
+    <p id="description"> We would Love to know your opinion on our products!</p>
+    <div>
+    <form action="/action_page.php" method="get" id="survey-form">
+        <label id="name"> Full name: </label> <br>
+        <input type="text" id="fname" name="fname" placeholder="First name" id="name-label"> 
+        <input type="text" id="lname" name="lname" placeholder="Last Name"> <br><br>
+        <label id="email"> Email ID:</label> <br>
+        <input type="email" placeholder="example@abc.com" id="email-label"> <br><br>
+        <label id="number"> Mobile Number: </label> <br>
+        <input type="number" placeholder="1234567891" min="10" max="10" id="number-label"> <br><br>
+        <label for="dropdown"> Gender: </label> <br>
+            <select name="Gender" id="gender">
+            <option value="disable"> Select an option </option>
+            <option value="male">Male</option>
+            <option value="female">Female</option> 
+            </select> <br> <br>
+        <label> How satisfied are you with our services? </label> <br>
+        <input type="radio" id="one" name="rating" value="1" style="font-size: 20px">
+        <label for="1"></label> 
+        <input type="radio" id="two" name="rating" value="2">
+        <label for="2"></label>
+        <input type="radio" id="three" name="rating" value="3"> 
+        <br> <br>
+        <label> Which of these products do you use? </label> <br>
+        <input type="checkbox" id="soap" name="soap" value="soap">
+        <label for="Soap"> Soap</label>
+        <input type="checkbox" id="showergel" name="showergel" value="showergel">
+        <label for="showergel"> Shower Gel </label>
+        <input type="checkbox" id="shampoo" name="shampoo" value="shampoo">
+        <label for="shampoo"> Shampoo </label>
+        <input type="checkbox" id="conditioner" name="conditioner" value="conditioner"> 
+        <label for="conditioner"> Conditioner </label> <br> <br>
+        <label for="textarea">Please give us your suggestions :</label> <br>
+        <textarea type="text" name="textarea" id="textarea" rows="5"></textarea>
+        
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
