@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+#main {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
+body {
+  color:white;
+  font-family:monospace;
+  font-size: 30;    
+}
+    p {
+        text-align: justify;
+        font-size: 20;
+    }
+#title {
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  font-family:monospace;
+  font-size: 60;
+}
+#image {
+        border-radius: 50%;
+        height: auto;
+        max-width:  50%;
+    }
+#image:hover {
+  transform: scaleX(-1);
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#tribute-info {
+    text-align: justify;
+    font-size: 20;
+    }
+    #tribute-link {
+        color:white;
+    }
+</style>
+</head>
+<body id = "main">
+
+<h1 id="title">Quincy Larson</h1>
+<figure id="img-div">
+    <img id="image" src="data:image/jpeg;base64,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"">
+    <figcaption id="img-caption"> The teacher who founded freeCodeCamp.org. </figcaption>
+    <ul id="tribute-info">
+        <li>
+        Quincy Larson was a school director for six years before he started to learn to code so that he could create tools for making schools more efficient. 
+        <li>His own journey into learning to code was long and winding and he recognized the need for a single-track curriculum for newbie developers. </li>
+        <li> 
+        Upon analyzing data on coding boot camps in the US and realizing how inaccessible coding education was to the masses, he set out to create a fully-online inclusive free platform for peer-driven learning of coding - the result of which is freeCodeCamp.
+        </li>
+        <li>
+        He lives in Texas with his family and spends his time working on freeCodeCamp, writing and interviewing authors for the freeCodeCamp publication, co-ordinating open source projects such as Chapter (a free MeetUp alternative),advocating for a free and open internet and playing with his two young kids.
+        </li>
+        <li>
+        The languages and technologies currently taught by freeCodeCamp include HTML5, CSS 3, JavaScript, jQuery, Bootstrap, Sass, React.js, Node.js, Python, Express.js, MongoDB, and Git.
+        </li>
+    </ul>
+    <p>In a 2015 podcast interview, he summarized his motivation for creating freeCodeCamp as follows:
+    "freeCodeCamp is my effort to correct the extremely inefficient and circuitous way I learned to code. I'm committing my career and the rest of my life towards making this process as efficient and painless as possible. All those things that made learning to code a nightmare to me are things that we are trying to fix with freeCodeCamp." </p>
+</figure>
+ If you are someone who is interested in learning how to code, definitely check out his website <a id="tribute-link" target="_blank" href="https://www.freecodecamp.org/"> freeCodeCamp </a>
+</body>
+</html>
